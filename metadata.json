@@ -1,0 +1,8 @@
+{
+  "name": "Audio output selector",
+  "description": "Allow to change audio output in gnome panel. Selector is hidden if there is only one output available.",
+  "uuid": "audio-selector@bjarosze.gmail.com",
+  "shell-version": [
+    "3.26.2"
+  ]
+}
