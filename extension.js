@@ -104,7 +104,7 @@ class AudioSelector {
 
 function enable() {
     let control = Main.panel.statusArea.aggregateMenu._volume._control;
-    audioSelector = new AudioSelector("Urządzenia audio", control);
+    audioSelector = new AudioSelector(_("Select Audio Device"), control);
 
     Main.panel.statusArea.aggregateMenu._volume._volumeMenu.addMenuItem(audioSelector.item, 0);
 }
